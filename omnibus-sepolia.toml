@@ -24,7 +24,7 @@ include = [
 ]
 
 [setting.salt]
-defaultValue = "snaxtest"
+defaultValue = "snaxtest-cannon"
 
 [setting.snx_package]
 defaultValue = "synthetix:3.8.0"
@@ -49,7 +49,7 @@ defaultValue = "fake-wsteth-token"
 depends = ["clone.wsteth_deploy"]
 
 [setting.owner]
-defaultValue = "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
+defaultValue = "0x7f28058F0b989430C7397782F797e300CDc10042"
 
 [setting.snx_address]
 defaultValue = "<%= imports.legacyMarket.imports.v2x.contracts.ProxySynthetix.address %>"
@@ -98,16 +98,16 @@ defaultValue = "2000000000000000000"
 defaultValue = "86400"
 
 [setting.deployer]
-defaultValue = "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
+defaultValue = "0xca7777aB932E8F0b930dE9F0d96f4E9a2a00DdD3"
 
 [setting.pdao]
-defaultValue = "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
+defaultValue = "0x7f28058F0b989430C7397782F797e300CDc10042"
 
 [setting.sc_pool_id]
 defaultValue = "1"
 
 [setting.pool_owner]
-defaultValue = "0x48914229deDd5A9922f44441ffCCfC2Cb7856Ee9"
+defaultValue = "0x7f28058F0b989430C7397782F797e300CDc10042"
 
 [setting.ccip_router]
 defaultValue = "0xd0daae2231e9cb96b94c8512223533293c3693bf"
